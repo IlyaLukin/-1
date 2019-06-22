@@ -15,7 +15,7 @@ namespace ConsoleApp50
             Console.WriteLine("Билетики");
             int n, k, ans, all;
             string s;
-            bool flag;
+           
             string[] split;
             Console.WriteLine("\nВведите два числа N (1<=N<=500000) и К (1<=К<=1000) (K<=N) через пробел: ");
             s = Console.ReadLine();
@@ -31,7 +31,7 @@ namespace ConsoleApp50
                 int.TryParse(split[i], out x[i]);
             }
             ans = 0;
-            flag = false;
+            
             int z = 0;
             for (int i = 0; i < n - k; i++)
             {
